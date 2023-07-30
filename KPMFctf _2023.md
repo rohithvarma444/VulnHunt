@@ -3,7 +3,7 @@
 
 An attacker can use Local File Inclusion (LFI) to trick the web application into exposing or running files on the web server. An LFI attack may lead to information disclosure, remote code execution, or even Cross-site Scripting (XSS). Typically, LFI occurs when an application uses the path to a file as input. If the application treats this input as trusted, a local file may be used in the include statement.
 
-In KPMG CTF2022 came through this web challenge where the 'secret' GET param is shown in the path to the flag is mentioned using the information
+In KPMG CTF2023 came through this web challenge where the 'secret' GET param is shown in the path to the flag is mentioned using the information
 > ?secret=../../../conif/iamsecure.txt
 
 [Resources](https://d00mfist.gitbooks.io/ctf/content/remote_file_inclusion.html)
